@@ -1,0 +1,269 @@
+
+html{ margin: 0px; padding: 0px; }
+
+body{
+  font-family:arial ;
+  background:#fff;
+ text-align: center;
+
+
+}
+#header{
+  float: left;
+  background-color:#ffebcd;
+  border: 0px solid blue;
+  padding: 0px;
+  margin: auto;
+  clear: both;
+
+}
+
+#logo{
+  float: left;
+  border: px solid red;
+  padding: 10px;
+  margin: 10px 0 0 0px;
+  clear: both;
+}
+#logo2{
+  float: auto;
+  width: 100%;
+  border-image-width: 90%;
+  border: px solid red;
+  padding: 0px;
+  margin: 0px 0 0 0px;
+  clear: both;
+}
+
+ #menu{
+  border: px solid #343232;
+  text-align: left;
+  border-radius:5px;
+  
+   float: right;
+   margin: 20px;
+}
+
+ #menu ul{
+  list-style: none;
+  height: 20px;  
+}
+
+ #menu ul li{
+  float:left;
+  padding:5px 40px 5px 0;
+}
+ #menu ul a{
+  text-decoration: none;
+
+  font-size: 25px;
+  color: #ff5000;
+  border-radius: 20px;
+  padding: 5px 20px 5px 15px ;
+  margin:  5px 15px 5px 15px ;
+  clear: both;
+}
+
+#menu ul a:hover{
+    text-decoration: none;
+
+    font-size: 25px;
+    color: #f6a884;
+    border-radius: 20px;
+    padding: 5px 20px 5px 15px ;
+    margin:  5px 15px 5px 15px ;
+    clear: both;
+}
+
+#main{
+
+  border: 0px solid #000000;
+   margin: 10px
+   width: auto;
+   height: auto;
+   border-radius:5px;
+    clear: both;
+}
+
+#imagemPaginaPrincipal{
+
+  border: 0px solid red;
+  padding: 20px;
+  font-size: 16px;
+  float: left;
+ 
+}
+#imagemPaginaPrincipal .imgPequena{
+  border: 0px solid #343232;
+  border-radius: 10px;
+  width: 250px;
+  height: 330px;
+  float: left;
+  padding: 5px;
+  margin: 30px;
+}
+.imgProduto{
+   border: 0px solid #343232;
+  width: 210px;
+  height: 220px;
+   float: left;
+   
+}
+#imagemPaginaPrincipal .texto{
+  
+  color: #343232;
+  padding: 5px;
+
+
+}
+#imagemPaginaPrincipal .comprar{
+  border: 1px solid #333432;
+  background: #FFF;
+    color: #363636;
+  margin: 10px 10px 10px 80px;
+  padding: 10px;
+  border-radius: 10px;
+ float: left;
+ clear: both;
+
+}
+
+#imagemPaginaPrincipal .comprar:hover {
+    border: 1px solid #706f6f;
+    background: #FFF;
+    color: #706f6f;
+    margin: 10px 10px 10px 80px;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    clear: both;
+}
+
+#imagemPaginaPrincipal .destaque{
+  border: 0px solid red;
+   border-radius: 10px;
+  width: auto;
+  height: auto;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto{
+  border: px solid #343232;
+   border-radius: 10px;
+  width: auto;
+  height: auto;
+  float: left;
+  margin: 10px;
+}
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto img{
+  border: 0px solid #343232;
+  width: 600px;
+  height: auto;
+  float: left;
+  margin: 10px;
+}
+
+
+#formulario{
+  margin: 20px;
+
+  border: 0px solid #01011f;
+  padding: 30px;
+  float: center;
+  font-size: 15px;
+  text-align: justify;
+}
+#formulario form{
+  margin: 0px;
+}
+#formulario form input{
+  border-radius: 5px;
+  border: 0px solid #01011f;
+  padding: 10px 0 10px 0;
+  margin: 10px;
+  width: 650px;
+}
+#formulario form textarea{
+  border: 0px solid #01011f;
+  padding: 10px;
+  margin: 10px;
+  width: 630px;
+  height: 200px;
+}
+#formulario form button{
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  float: center;
+
+}
+
+#quemsomos{
+  border: 0px solid #ccc;
+  padding: 10px;
+  float: right;
+  font-size: 15px;
+  text-align: justify;
+  
+}
+
+#footer{
+  background-color: #f86f34;
+  text-align: 30px;
+  border: 1px solid #ccc;
+  margin: auto;
+   width: 100%;
+   border-radius:5px;
+  float: auto;
+    clear: both;
+}
+#footer .rodape_direito{
+ 
+  border-radius: 10px;
+  width: 350px;
+  height: 330px;
+  float: left;
+  padding: 5px;
+  margin: 30px;
+ text-align: left;
+
+}
+#footer .rodape_meio{
+ 
+  width: 250px;
+  height: 330px;
+  float: left;
+  padding: 5px;
+  margin: 30px;
+  text-align: left;
+}
+#footer .rodape_esquerdo{
+  
+  width: 450px;
+  height: 330px;
+  float: left;
+  padding: 5px;
+  margin: 30px;
+  text-align: left;
+}
+#footer .assinatura{
+ border-top: 2px solid #ccc;
+  width: 100%;
+  
+  float: center;
+ 
+  clear: both;
+  text-align: center;
+}
+#footer a{
+   text-decoration: none;
+   color: black;
+
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: #383737;
+}
